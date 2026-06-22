@@ -26,7 +26,7 @@ def main():
 
     args = parser.parse_args()
 
-    # for testing
+    # for testing args
     print("[*] Configuration Loaded Successfully:")
     print(f"    [+] Target URL: {args.url}")
     print(f"    [+] Wordlist:   {args.wordlist}")
