@@ -16,26 +16,31 @@ An object-oriented Python command-line utility engineered for automated web secu
 ### 1. Clone the Repository
 ```bash
 git clone git@github.com:YOUR-GITHUB-USERNAME/ctf-web-enumerator.git
-cd ctf-web-enum```
+cd ctf-web-enum
+```
 
 ### 2. (Optional) Create and activate a Virtual Environment
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate```
+source .venv/bin/activate
+```
 
 ### 3. Install Required Dependencies
 ```bash
-pip install requests```
+pip install requests
+```
 
 
 ## Usage
 
 ### Basic Scan (Infrastructure & Hidden Files)
 ```bash
-python3 ctf_recon.py -u [https://example.com](https://example.com)```
+python3 ctf_recon.py -u [https://example.com](https://example.com)
+```
 
 ### Advanced Scan (Multi-Threaded Fuzzing with Custom Wordlist)
 ```bash
-python3 ctf_recon.py -u [https://example.com](https://example.com) -w your_wordlist.txt -t 15```
+python3 ctf_recon.py -u [https://example.com](https://example.com) -w your_wordlist.txt -t 15
+```
 
 
