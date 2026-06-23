@@ -15,8 +15,8 @@ An object-oriented Python command-line utility engineered for automated web secu
 
 ### 1. Clone the Repository
 ```bash
-git clone git@github.com:YOUR-GITHUB-USERNAME/ctf-web-enumerator.git
-cd ctf-web-enum
+git clone git@github.com:DrPaps/ctf-starter-kit.git
+cd ctf-starter-kit
 ```
 
 ### 2. (Optional) Create and activate a Virtual Environment
